@@ -1,58 +1,49 @@
-# Büro Profili — [BÜRO_ADI]
+# Büro Profili — Av. Emre Durmuş Hukuk Bürosu
 
 > Bu dosya tüm plugin'ler tarafından okunur. Büro ve kullanıcı seviyesindeki temel bilgiler buraya yazılır.
->
-> **`[DOLDUR]` etiketli alanlar kurulum sırasında doldurulmalıdır.**
-> Doldurmak için: `/firm-operations:cold-start-interview` komutunu çalıştırın.
->
-> **Kaynak etiketleri:**
-> - `[büro]` — Büronun kendi verisi (iç bilgi)
-> - `[baro]` — Baro sicil kaydından (kamuya açık)
-> - `[DOLDUR]` — Kurulum sırasında kullanıcı tarafından doldurulacak
 
 ---
 
 ## Kim olduğumuz
 
-**Büro adı:** [DOLDUR — tam resmi ünvan]
-**Hukuki yapı:** [DOLDUR — Avukatlık Ortaklığı / Bireysel Avukatlık Bürosu / Hibrit]
-**TBB Avukatlık Ortaklıkları Sicil no:** [DOLDUR — varsa]
-**Kuruluş yılı:** [DOLDUR]
-**Vergi no:** [DOLDUR]
+**Büro adı:** Av. Emre Durmuş Hukuk Bürosu
+**Hukuki yapı:** Bireysel Avukatlık Bürosu
+**TBB Avukatlık Ortaklıkları Sicil no:** Yok
+**Kuruluş yılı:** 2004
+**Vergi no:** Belirtilmedi
 **Pratik ortamı:** Dışarıdan danışmanlık (law firm / dış avukatlık bürosu)
 
 ---
 
 ## Ofis ve coğrafya
 
-**Merkez ofis:** [DOLDUR — il / ilçe / cadde]
-**İrtibat ofisleri:** [DOLDUR — varsa; yoksa "Yok"]
-**Çalışma dilleri:** [DOLDUR — örn. Türkçe (ana), İngilizce]
+**Merkez ofis:** İstanbul
+**İrtibat ofisleri:** Yok
+**Çalışma dilleri:** Türkçe (Ana Dil)
 
 ---
 
 ## Kadro
 
-**Yönetici Ortak:** [DOLDUR — rumuz + baro sicil no + uzmanlık]
-**Kıdemli Ortaklar:** [DOLDUR — sayı + uzmanlık dağılımı]
-**Bağlı avukat sayısı:** [DOLDUR]
-**Stajyer sayısı:** [DOLDUR]
-**Hukuk asistan + sekretarya:** [DOLDUR]
-**Toplam kadro:** [DOLDUR — 0-30 bandı öngörülmüş]
+**Yönetici Ortak:** Av. Emre Durmuş (Yönetici Avukat / Sahibi)
+**Kıdemli Ortaklar:** Yok (Bireysel Çalışma)
+**Bağlı avukat sayısı:** 0
+**Stajyer sayısı:** 0
+**Hukuk asistan + sekretarya:** Yok
+**Toplam kadro:** 1 (Bireysel Avukat)
 
 ### Baro kayıt
 
 | Baro | Ortak/Avukat sayısı | Kayıt tipi |
 |---|---|---|
-| [DOLDUR — örn. İstanbul Barosu] | [N] | Asıl |
-| [DOLDUR — örn. Ankara Barosu] | [N] | Asıl/Bağlı |
+| İstanbul Barosu | 1 | Asıl |
 
 ---
 
 ## Müvekkil portföyü (agregat — gerçek isim YOK)
 
-**Aktif müvekkil sayısı:** [DOLDUR]
-**Sürekli danışmanlık (retainer) sayısı:** [DOLDUR]
+**Aktif müvekkil sayısı:** Belirtilmedi
+**Sürekli danışmanlık (retainer) sayısı:** Belirtilmedi
 
 **Müvekkil tip dağılımı:**
 - Bireysel: [%]
@@ -60,105 +51,92 @@
 - Mid-cap / büyük kurumsal: [%]
 - Yabancı müvekkil: [%]
 
-**Sektör dağılımı:** [DOLDUR — örn. inşaat %30 / perakende %20 / üretim %20 / hizmet %30]
-
-**Coğrafi dağılım:** [DOLDUR — örn. İstanbul %70 / Ankara %15 / diğer %15]
+**Sektör dağılımı:** Belirtilmedi
+**Coğrafi dağılım:** İstanbul ve çevre iller
 
 ---
 
 ## Aktif pratik alanları
 
-> Kurulum sırasında hangi plugin'lerin aktif kullanılacağını işaretle.
-
 | Plugin | Aktif mi? | Aylık matter tahmini |
 |---|---|---|
-| `commercial-legal` | [Evet/Hayır] | [N] |
-| `corporate-legal` | [Evet/Hayır] | [N] |
-| `employment-legal` | [Evet/Hayır] | [N] |
-| `privacy-legal` | [Evet/Hayır] | [N] |
-| `regulatory-legal` | [Evet/Hayır] | [N] |
-| `ip-legal` | [Evet/Hayır] | [N] |
-| `litigation-legal` | [Evet/Hayır] | [N] |
-| `tax-legal` | [Evet/Hayır] | [N] |
-| `administrative-legal` | [Evet/Hayır] | [N] |
-| `energy-finance` | [Evet/Hayır] | [N] |
-| `criminal-defense` | [Evet/Hayır] | [N] |
+| `commercial-legal` | Evet | 5 |
+| `corporate-legal` | Evet | 5 |
+| `employment-legal` | Evet | 5 |
+| `privacy-legal` | Evet | 5 |
+| `regulatory-legal` | Hayır | 0 |
+| `ip-legal` | Evet | 5 |
+| `litigation-legal` | Evet | 10 |
+| `tax-legal` | Hayır | 0 |
+| `administrative-legal` | Hayır | 0 |
+| `energy-finance` | Hayır | 0 |
+| `criminal-defense` | Evet | 5 |
 | `firm-operations` | Evet (her büro) | — |
 
 ---
 
 ## Risk duruşu
 
-**Genel:** [DOLDUR — örn. Dengeli / Muhafazakâr / Dinamik]
+**Genel:** Dengeli
 
 **Kritik kırmızı çizgiler (büro seviyesi):**
 - **OFAC / AB / BM yaptırım listeleri** — yaptırım altındaki karşı tarafla işlem yok
 - **Çıkar çatışması (Av. K. m. 38)** — conflict check her yeni matter'da zorunlu
 - **MASAK kimlik tespit (5549 sayılı Kanun)** — her yeni müvekkilde kimlik + UBO
 - **Avukatlık Kanunu m. 164** — başarı bonusu max %25
-- [DOLDUR — büro-spesifik ek kırmızı çizgiler]
 
 ---
 
 ## Müvekkil intake politikası
 
-**Conflict check derinliği:** [DOLDUR — son N yıl, fonetik tarama var mı?]
-**MASAK kimlik tespit standardı:** [DOLDUR — zorunlu belgeler listesi]
+**Conflict check derinliği:** Son 5 yıl, fonetik tarama ile
+**MASAK kimlik tespit standardı:** Nüfus cüzdanı, yerleşim yeri belgesi ve tüzel kişiler için imza sirküleri/ticaret sicil gazetesi
 **Sanctions tarama:** OpenSanctions API (`opensanctions-rehberi.md`) — tüzel ve yabancı müvekkil zorunlu
-**KVKK aydınlatma:** [DOLDUR — standart metin var mı?]
+**KVKK aydınlatma:** Standart müvekkil aydınlatma metni mevcut
 **Otomatik 🟠 inceleme tetikleyicileri:**
 - PEP (siyasi açıdan önemli kişi) müvekkil
 - Yabancı uyruklu müvekkil
-- Tahmini değer > [DOLDUR — TL eşiği]
-- [DOLDUR — ek tetikleyiciler]
+- Tahmini değer > 1.000.000 TL
 
 ---
 
 ## Vekalet ücreti modeli
 
-**Standart model:** [DOLDUR — saatlik / götürü / hibrit / başarı bonusu]
+**Standart model:** Saatlik / Götürü (İşe göre hibrit)
 
 | Kademe | Saatlik oran (TL/saat) |
 |---|---|
-| Yönetici Ortak | [DOLDUR] |
-| Kıdemli Ortak | [DOLDUR] |
-| Bağlı Avukat | [DOLDUR] |
-| Stajyer | [DOLDUR] |
+| Yönetici Ortak | Belirtilmedi |
+| Kıdemli Ortak | — |
+| Bağlı Avukat | — |
+| Stajyer | — |
 
 **Başarı bonusu:** Max %25 (Av. K. m. 164)
-**Karşı yan vekalet ücreti:** [DOLDUR — büro politikası]
+**Karşı yan vekalet ücreti:** Büro uhdesinde bırakılır (yasal yansıtma hariç)
 
 ---
 
 ## Birincil yargı çevresi
 
 - **Birincil:** Türkiye Cumhuriyeti
-- **İkincil:** [DOLDUR — müvekkil portföyüne göre: UK / AB / ABD / diğer]
-- **Tahkim:** [DOLDUR — ISTAC / ICC / başka]
+- **İkincil:** Yok
+- **Tahkim:** ISTAC
 
 **Tabi olunan başlıca mevzuat:**
 - 6098 sayılı Türk Borçlar Kanunu (TBK)
 - 6102 sayılı Türk Ticaret Kanunu (TTK)
 - 4857 sayılı İş Kanunu + 5510 SGK Kanunu
 - 6698 sayılı KVKK
-- 6362 sayılı Sermaye Piyasası Kanunu (halka açık müvekkil varsa)
-- 4054 sayılı Rekabetin Korunması Hakkında Kanun
 - 6769 sayılı Sınai Mülkiyet Kanunu (SMK)
 - 1136 sayılı Avukatlık Kanunu
-- [DOLDUR — sektöre özel ek mevzuat]
 
 ---
 
 ## Litigation profili (özet)
 
-**Litigation modeli:** [DOLDUR — Doğrudan temsil / Dış vekil ağırlıklı / Karma]
-**Aktif dava hacmi:** [DOLDUR — tahmini]
-**Birincil yargı yerleri:** [DOLDUR — örn. İstanbul, Ankara, ISTAC]
-
-**Dış vekil paneli (varsa):**
-- Ticari uyuşmazlık: [DOLDUR]
-- İdari / Danıştay: [DOLDUR]
-- Tahkim: [DOLDUR]
+**Litigation modeli:** Doğrudan temsil
+**Aktif dava hacmi:** Belirtilmedi
+**Birincil yargı yerleri:** İstanbul Adliyeleri (Çağlayan, Anadolu, Bakırköy)
 
 ---
 
@@ -166,25 +144,23 @@
 
 | Platform | Araç |
 |---|---|
-| Matter / belge yönetimi | [DOLDUR — iManage / SharePoint / Drive / dahili] |
-| Zaman takibi | [DOLDUR — Clio / TimeSolv / Excel] |
-| Fatura / muhasebe | [DOLDUR] |
-| E-imza / KEP | [DOLDUR] |
-| CRM | [DOLDUR — varsa] |
-| Sanctions tarama | OpenSanctions API — `OPENSANCTIONS_API_KEY` [kuruldu mu?] |
+| Matter / Belge yönetimi | Klasik Dosyalama / UYAP |
+| Zaman takibi | Excel / UYAP |
+| Fatura / Muhasebe | Serbest Meslek Makbuzu / Excel |
+| E-imza / KEP | UYAP E-İmza / KEP |
+| CRM | Yok |
+| Sanctions tarama | OpenSanctions API |
 
 ---
 
 ## Kullanıcı rolü
 
-> Bu bölüm kurulum sırasında `/<plugin>:cold-start-interview` skill'i ile her kullanıcı için ayrı ayrı doldurulur.
-
-**Bu asistanı kullanan kişi:** [DOLDUR — rumuz veya rol tanımı; gerçek isim yazmayın]
-**Pozisyon:** [DOLDUR — örn. Kıdemli Avukat / Ortak / Stajyer Avukat]
-**Rol tipi:** [DOLDUR — Avukat (baroya kayıtlı) / Stajyer / Legal Analyst]
-**Doğrudan amir:** [DOLDUR — Yönetici Ortak / Kıdemli Ortak]
-**Aktif pratik alanları:** [DOLDUR — hangi plugin'leri kullanıyor]
-**Risk duruşu:** [DOLDUR — büro genel duruşunu devral veya özelleştir]
+**Bu asistanı kullanan kişi:** Av. Emre Durmuş
+**Pozisyon:** Yönetici Avukat / Sahibi
+**Rol tipi:** Avukat (baroya kayıtlı)
+**Doğrudan amir:** Yok (Yönetici Avukat)
+**Aktif pratik alanları:** commercial-legal, corporate-legal, employment-legal, privacy-legal, ip-legal, litigation-legal, criminal-defense
+**Risk duruşu:** Dengeli
 
 ---
 
@@ -192,13 +168,10 @@
 
 - **Resmi Gazete:** https://www.resmigazete.gov.tr/ (günlük 09:30)
 - **TR Legal MCP:** Birleşik connector (`yargi-mcp-pro`) üzerinden yürürlükteki kanun/KHK/yönetmelik/tebliğ + Yargıtay/Danıştay/AYM ve kurul kararları.
-- **Sektör düzenleyicileri (müvekkil portföyüne göre):**
-  - **EPDK** — https://www.epdk.gov.tr
+- **Sektör düzenleyicileri:**
   - **Rekabet Kurumu** — https://www.rekabet.gov.tr
-  - **SPK + KAP** — https://www.spk.gov.tr, https://www.kap.org.tr (halka açık müvekkil için)
   - **KVKK Kurulu** — https://www.kvkk.gov.tr
-  - **TÜRKPATENT** — https://www.turkpatent.gov.tr (IP pratik alanı için)
-  - [DOLDUR — büro müvekkil portföyüne göre ek regülatörler]
+  - **TÜRKPATENT** — https://www.turkpatent.gov.tr
 
 ---
 
@@ -212,23 +185,13 @@
 
 ```
 GİZLİDİR – HUKUK MÜŞAVİRLİĞİ DAHİLİ ÇALIŞMA NOTU
-[BÜRO_ADI]
+Av. Emre Durmuş Hukuk Bürosu
 Bu belge yalnızca hukuk müşavirliği değerlendirmesi içindir.
 Üçüncü kişilere iletilmeden önce Yönetici Ortak onayı alınmalıdır.
 ```
 
 ---
 
-## Bilinen risk olayları / aktif konular (snapshot)
-
-| Tarih | Konu | Durum | Sahibi |
-|---|---|---|---|
-| [DOLDUR] | | | |
-
-*Bu tablo cold-start ile veya manuel güncellenir.*
-
----
-
-*Kurulum tarihi:* [DOLDUR — GG.AA.YYYY]
-*Son güncelleme:* [DOLDUR — GG.AA.YYYY]
-*Bu dosyayı dolduran:* [DOLDUR — /firm-operations:cold-start-interview çıktısı]
+*Kurulum tarihi:* 29.06.2026
+*Son güncelleme:* 29.06.2026
+*Bu dosyayı dolduran:* Antigravity AI Assistant (/firm-operations:cold-start-interview çıktısı)
